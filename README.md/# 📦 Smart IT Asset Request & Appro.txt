@@ -1,13 +1,22 @@
-# Ignore Python cache files
-__pycache__/
-*.pyc
+# 📦 Smart IT Asset Request & Approval System
 
-# Ignore local data files
-requests.csv
+This is a simple web-based asset request system built with **Python** and **Streamlit**. It simulates how employees can request IT assets (like laptops or software) and how admins can approve those requests.
 
-# Ignore virtual environments
-venv/
-.env
+---
 
-# Ignore Streamlit logs
-.streamlit/
+## 🚀 Features
+
+- Submit IT asset requests via web UI
+- Simulated email notifications on submission and approval
+- Admin dashboard to view and approve requests
+- Requests stored in a CSV file
+- Works offline (can be extended to integrate with ServiceNow)
+
+---
+
+## 🖥 How to Run It
+
+### 1. Clone this repository:
+```bash
+git clone https://github.com/your-username/smart-asset-request-system.git
+cd smart-asset-request-system
